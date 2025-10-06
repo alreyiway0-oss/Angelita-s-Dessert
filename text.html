@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Angelita's Desserts</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Open+Sans:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+
+    <header class="main-header">
+        <nav class="container nav-bar">
+            <div class="logo">Angelita's Desserts</div>
+            
+            <i class="fas fa-bars menu-toggle" id="menu-icon"></i>
+            
+            <ul class="nav-links" id="nav-menu">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#products">Our Desserts</a></li>
+                <li><a href="#pricing">Prices</a></li>
+                <li><a href="#why-us">Why Choose Us</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home" class="hero-section">
+        <div class="hero-content">
+            <img src="1759565413300.jpg" alt="Angelita's Desserts Logo" class="hero-logo">
+            <p>Traditional Filipino Delicacies, Baked with Love</p>
+            <a href="#products" class="btn primary-btn">Explore Our Desserts</a>
+        </div>
+    </section>
+
+    <section id="about" class="section-padding">
+        <div class="container text-center">
+            <h2>About Us</h2>
+            <p class="about-text">
+                At Angelita's Desserts, we pride ourselves on bringing you authentic Filipino kakanin,
+                crafted from cherished family recipes. Each bite is a taste of tradition,
+                made with the finest ingredients and a whole lot of heart.
+                Experience the sweetness and warmth of homemade goodness.
+            </p>
+        </div>
+    </section>
+
+    <section id="products" class="section-padding background-light">
+        <div class="container text-center">
+            <h2>Our Delicious Desserts</h2>
+            <div class="products-grid">
+                
+                <a href="#pricing" class="product-link">
+                    <div class="product-card">
+                        <img src="1759565021512.jpg" alt="Bibingka">
+                        <h3>Bibingka</h3>
+                        <p>A classic Filipino rice cake, traditionally baked in clay pots, with a soft, spongy texture and a hint of coconut.</p>
+                        <span class="view-price">View Prices</span>
+                    </div>
+                </a>
+
+                <a href="#pricing" class="product-link">
+                    <div class="product-card"> 
+                        <img src="1759564887863.jpg" alt="Maja Blanca">
+                        <h3>Maja Blanca</h3>
+                        <p>A creamy coconut milk pudding, topped with toasted coconut flakes, offering a rich and delightful experience.</p>
+                        <span class="view-price">View Prices</span>
+                    </div>
+                </a>
+
+                <a href="#pricing" class="product-link">
+                    <div class="product-card">
+                        <img src="1759549642767.jpg" alt="Biko">
+                        <h3>Biko</h3>
+                        <p>Sweet sticky rice cake cooked with coconut milk and brown sugar, often garnished with latik (caramelized coconut curds).</p>
+                        <span class="view-price">View Prices</span>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </section>
+    
+    <section id="pricing" class="section-padding">
+        <div class="container text-center">
+            <h2 class="price-heading">Pricing & Order Details</h2>
+            <p class="about-text">Explore the pricing for our traditional Filipino desserts based on size and serving options.</p>
+
+            <div class="pricing-grid">
+                
+                <div class="price-card">
+                    <h3>Bibingka (Traditional)</h3>
+                    <p>Small (6 inches)</p>
+                    <p class="price-tag">₱180.00</p>
+                    <p>Good for 2-3 people</p>
+                </div>
+                
+                <div class="price-card">
+                    <h3>Maja Blanca (Traditional)</h3>
+                    <p>Medium (8x8 tray)</p>
+                    <p class="price-tag">₱350.00</p>
+                    <p>Good for 6-8 people</p>
+                </div>
+                
+                <div class="price-card">
+                    <h3>Biko (Traditional)</h3>
+                    <p>Large (10x14 tray)</p>
+                    <p class="price-tag">₱580.00</p>
+                    <p>Perfect for parties (10-15 people)</p>
+                </div>
+                
+                <div class="price-card">
+                    <h3>Maja Blanca (Microwavable)</h3>
+                    <p>Single Serve (Container)</p>
+                    <p class="price-tag">₱95.00</p> 
+                    <p>Ideal for quick cravings</p>
+                </div>
+                
+                <div class="price-card">
+                    <h3>Biko (Microwavable)</h3>
+                    <p>Single Serve (Container)</p>
+                    <p class="price-tag">₱85.00</p>
+                    <p>Ready to heat and eat</p>
+                </div>
+                
+            </div>
+            <a href="#contact" class="btn secondary-btn">Place Your Custom Order</a>
+        </div>
+    </section>
+    
+    <section id="why-us" class="section-padding background-light">
+        <div class="container text-center">
+            <h2>Why Choose Angelita's?</h2>
+            <div class="why-us-grid">
+                <div class="why-us-item">
+                    <i class="fas fa-cookie-bite icon-large"></i>
+                    <h3>Authentic Recipes</h3>
+                    <p>Generations-old recipes ensure true Filipino taste.</p>
+                </div>
+                <div class="why-us-item">
+                    <i class="fas fa-hand-holding-heart icon-large"></i>
+                    <h3>Made with Love</h3>
+                    <p>Every dessert is prepared with passion and care.</p>
+                </div>
+                <div class="why-us-item full-width-item">
+                    <i class="fas fa-leaf icon-large"></i>
+                    <h3>Finest Ingredients</h3>
+                    <p>Only fresh, high-quality local ingredients are used.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="section-padding">
+        <div class="container text-center contact-container">
+            <h2>Connect With Us</h2>
+            <p>Ready to indulge in some authentic Filipino desserts? Reach out to us!</p>
+            <div class="contact-info">
+                <p>
+                    <i class="fas fa-map-marker-alt"></i> 
+                    <a href="https://maps.app.goo.gl/jLju78ua9B2NqxcD8" target="_blank" class="map-link">
+                        Millionaire's Village Sapphire St. Nova Q.C
+                    </a>
+                </p>
+                <p><i class="fas fa-phone"></i> +63 9624369528</p>
+                <p><i class="fas fa-envelope"></i> orders@angelitasdesserts.com</p>
+            </div>
+            
+            <div class="contact-map">
+                <img src="IMG_20251006_200026.jpg" alt="Map showing location in Millionaire's Village near Savemore Market Novaliches">
+            </div>
+            
+            <div class="social-links">
+                <a href="https://www.facebook.com/litlit.pabroa"><i class="fab fa-facebook-f"></i></a>
+            </div>
+            <a href="#" class="btn secondary-btn">Place an Order</a>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Angelita's Desserts. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script>
+        const menuIcon = document.getElementById('menu-icon');
+        const navMenu = document.getElementById('nav-menu');
+
+        menuIcon.addEventListener('click', () => {
+            navMenu.classList.toggle('active');
+        });
+    </script>
+
+</body>
+</html>
